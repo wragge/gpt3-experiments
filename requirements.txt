@@ -114,11 +114,10 @@ jupyter-core==5.2.0
     #   nbformat
     #   notebook
 jupyter-events==0.6.3
+    # via jupyter-server-fileid
+jupyter-server==1.23.6
     # via
-    #   jupyter-server
-    #   jupyter-server-fileid
-jupyter-server==2.3.0
-    # via
+    #   -r requirements.in
     #   jupyter-server-fileid
     #   jupyterlab
     #   jupyterlab-server
@@ -126,8 +125,6 @@ jupyter-server==2.3.0
     #   notebook-shim
 jupyter-server-fileid==0.8.0
     # via jupyter-server-ydoc
-jupyter-server-terminals==0.4.4
-    # via jupyter-server
 jupyter-server-ydoc==0.6.1
     # via jupyterlab
 jupyter-ydoc==0.2.2
@@ -268,7 +265,6 @@ stack-data==0.6.2
 terminado==0.17.1
     # via
     #   jupyter-server
-    #   jupyter-server-terminals
     #   nbclassic
     #   notebook
 tinycss2==1.2.1
